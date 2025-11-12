@@ -68,7 +68,7 @@ colorPicker.addEventListener("input", (e) => {
     isErasing = false;
 });
 
-eraserBtn.addEventListener("click", () => {
+eraseBtn.addEventListener("click", () => {
     isErasing = !isErasing;
     eraserBtn.textContent = isErasing ? "Piši" : "Briši";
 });
