@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Interaktivni Whiteboard</title>
+</head>
+<body>
+    <h1><a href="marker.png"></a>Interaktivni Whiteboard</h1>
+
+    <!--Toolbar for drawing options -->
+
+
+    <div class="toolbar">
+        <label for="colorPicker">Boja:</label>
+        <input type="color" id="colorPicker" value="#000000">
+
+        <label for="brushSize">Četkica:</label>
+        <input type="range" id="brushSize" min="1" max="20" value="3">
+
+        <button id="clearBtn">Cista ploca</button>
+        <button id="saveBtn">Sačuvaj</button>
+        <button id="eraserBtn">Brisi</button>
+    </div>
+
+    <!-- Drawing canvas -->
+    <canvas id="board" width="900"  height="500"></canvas>
+
+    <footer>    
+        Web programiranje 2025 © Internacionalna poslovno-informaciona akademija Tuzla
+    </footer>
+     <script src="script.js"></script>
+</body>
+</html>
